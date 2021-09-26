@@ -41,9 +41,9 @@ from qgis.PyQt.Qt import (
     Qt
 )
 from qgis.PyQt.QtGui import QColor
-from core.plot_settings import PlotSettings
-from core.plot_types.plot_type import PlotType
-from core.plot_types import *  # pylint: disable=W0401,W0614
+from DataPlotly.core.plot_settings import PlotSettings
+from DataPlotly.core.plot_types.plot_type import PlotType
+from DataPlotly.core.plot_types import *  # pylint: disable=W0401,W0614
 
 
 class FilterRegion(QgsReferencedGeometryBase):  # pylint: disable=too-few-public-methods

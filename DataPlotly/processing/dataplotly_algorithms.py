@@ -43,8 +43,8 @@ from qgis.core import (
 
 from qgis.PyQt.QtCore import QCoreApplication
 
-from core.plot_factory import PlotFactory
-from core.plot_settings import PlotSettings
+from DataPlotly.core.plot_factory import PlotFactory
+from DataPlotly.core.plot_settings import PlotSettings
 
 
 class DataPlotlyProcessingPlot(QgsProcessingAlgorithm):

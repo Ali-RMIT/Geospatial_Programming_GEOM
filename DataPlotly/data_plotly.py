@@ -28,15 +28,15 @@ from qgis.core import QgsApplication
 from qgis.gui import QgsGui
 
 # Import the code for the dialog
-from .gui.dock import DataPlotlyDock
-from .gui.gui_utils import GuiUtils
+from DataPlotly.gui.dock import DataPlotlyDock
+from DataPlotly.gui.gui_utils import GuiUtils
 
 # import processing provider
-from .processing.dataplotly_provider import DataPlotlyProvider
+from DataPlotly.processing.dataplotly_provider import DataPlotlyProvider
 
 # import layout classes
-from .layouts.plot_layout_item import PlotLayoutItemMetadata
-from .gui.layout_item_gui import PlotLayoutItemGuiMetadata
+from DataPlotly.layouts.plot_layout_item import PlotLayoutItemMetadata
+from DataPlotly.gui.layout_item_gui import PlotLayoutItemGuiMetadata
 
 
 class DataPlotly:  # pylint: disable=too-many-instance-attributes
