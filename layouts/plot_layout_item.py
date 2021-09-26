@@ -29,9 +29,9 @@ from qgis.core import (
 )
 from qgis.PyQt.QtWebKitWidgets import QWebPage
 
-from DataPlotly.core.plot_settings import PlotSettings
-from DataPlotly.core.plot_factory import PlotFactory, FilterRegion
-from DataPlotly.gui.gui_utils import GuiUtils
+from core.plot_settings import PlotSettings
+from core.plot_factory import PlotFactory, FilterRegion
+from gui.gui_utils import GuiUtils
 
 ITEM_TYPE = QgsLayoutItemRegistry.PluginItem + 1337
 

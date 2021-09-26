@@ -23,9 +23,9 @@ from qgis.gui import (
     QgsLayoutItemPropertiesWidget
 )
 
-from DataPlotly.layouts.plot_layout_item import ITEM_TYPE
-from DataPlotly.gui.gui_utils import GuiUtils
-from DataPlotly.gui.plot_settings_widget import DataPlotlyPanelWidget
+from layouts.plot_layout_item import ITEM_TYPE
+from gui.gui_utils import GuiUtils
+from gui.plot_settings_widget import DataPlotlyPanelWidget
 
 
 class PlotLayoutItemWidget(QgsLayoutItemBaseWidget):

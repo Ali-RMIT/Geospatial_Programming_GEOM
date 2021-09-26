@@ -21,8 +21,8 @@
  ***************************************************************************/
 """
 from qgis.core import QgsProcessingProvider
-from DataPlotly.processing.dataplotly_algorithms import DataPlotlyProcessingPlot
-from DataPlotly.gui.gui_utils import GuiUtils
+from .dataplotly_algorithms import DataPlotlyProcessingPlot
+from gui.gui_utils import GuiUtils
 
 
 class DataPlotlyProvider(QgsProcessingProvider):

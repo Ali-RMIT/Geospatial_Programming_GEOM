@@ -11,7 +11,7 @@ from qgis.gui import (
     QgsDockWidget,
     QgsPanelWidgetStack
 )
-from DataPlotly.gui.plot_settings_widget import DataPlotlyPanelWidget
+from gui.plot_settings_widget import DataPlotlyPanelWidget
 
 
 class DataPlotlyDock(QgsDockWidget):  # pylint: disable=too-few-public-methods

@@ -82,9 +82,9 @@ from qgis.gui import (
 )
 from qgis.utils import iface
 
-from DataPlotly.core.plot_factory import PlotFactory
-from DataPlotly.core.plot_settings import PlotSettings
-from DataPlotly.gui.gui_utils import GuiUtils
+from core.plot_factory import PlotFactory
+from core.plot_settings import PlotSettings
+from gui.gui_utils import GuiUtils
 
 WIDGET, _ = uic.loadUiType(
     GuiUtils.get_ui_file_path('dataplotly_dockwidget_base.ui'))
